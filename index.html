@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rentauto - Wypożyczalnia samochodu razem z kierowcą Kraków</title>
+
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__panel">
+        <div class="wrapper">
+          <div class="panel__container">
+            <a href="" class="panel__link" id="ang-trigger">English</a>
+            <p class="panel__split">/</p>
+            <a href="" class="panel__link" id="pol-trigger">Polski</a>
+          </div>
+          <div class="panel__container">
+            <img src="img/svg/phone.svg" alt="phone" class="panel__image" />
+            <p class="panel__phone">+44 000-000-000</p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="header__navigation">
+        <div class="wrapper">
+          <h1 class="header__logo">Rentauto</h1>
+          <ul class="header__list" id="header__list">
+            <li class="navigation__element">
+              <a class="navigation__link" href="#home" id="about-text">O NAS</a>
+            </li>
+            <li class="navigation__element">
+              <a class="navigation__link" href="#offer" id="offer-text"
+                >OFERTA</a
+              >
+            </li>
+            <li class="navigation__element">
+              <a class="navigation__link" href="#tariff" id="tariff-text"
+                >CENNIK</a
+              >
+            </li>
+            <li class="navigation__element">
+              <a class="navigation__link" href="#fleet" id="fleet-text"
+                >FLOTA</a
+              >
+            </li>
+            <li class="navigation__element">
+              <a class="navigation__link" href="#gallery" id="gallery-text"
+                >GALERIA</a
+              >
+            </li>
+            <li class="navigation__element">
+              <a class="navigation__link" href="#faq" id="faq-text">FAQ</a>
+            </li>
+            <li class="navigation__element">
+              <a class="navigation__link" href="#contact" id="contact-text"
+                >KONTAKT</a
+              >
+            </li>
+          </ul>
+          <div class="navigation__burger" id="navigation__burger">
+            <div class="burger__bar"></div>
+            <div class="burger__bar"></div>
+            <div class="burger__bar"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="fleet__overlay" id="fleet__overlay">
+      <div class="wrapper">
+        <div class="fleet__overlay__container">
+          <img
+            src="img/png/mercedes.png"
+            alt="Car"
+            class="fleet__overlay__image"
+          />
+          <p class="fleet__overlay__alert" id="fleet-overlay-alert-text">
+            Uwaga - Zdjęcie poglądowe, przedstawia wygląd danego modelu
+            samochodu
+          </p>
+        </div>
+        <div class="fleet__overlay__container">
+          <p class="fleet__overlay__heading" id="fleet-overlay-heading-text">
+            Ilość miejsc: 5 Wyposażenie:
+          </p>
+          <ul class="fleet__overlay__list">
+            <li class="fleet__overlay__element">Wi-Fi,</li>
+            <li class="fleet__overlay__element" id="fleet-overlay-clime-text">
+              Klimatyzacja automatyczna 2-strefowa,
+            </li>
+            <li class="fleet__overlay__element" id="fleet-overlay-leather">
+              Skórzana tapicerka,
+            </li>
+            <li class="fleet__overlay__element" id="fleet-overlay-armchairs">
+              Indywidualne fotele,
+            </li>
+            <li class="fleet__overlay__element" id="fleet-overlay-automatic">
+              Automatyczna skrzynia biegów,
+            </li>
+            <li class="fleet__overlay__element" id="fleet-overlay-lights">
+              Inteligente światła ILS LED,
+            </li>
+            <li class="fleet__overlay__element" id="fleet-overlay-advanced">
+              Zaawansowane systemy bezpieczeństwa i komfortu,
+            </li>
+            <li class="fleet__overlay__element" id="fleet-overlay-pane">
+              Przyciemniane szyby
+            </li>
+          </ul>
+        </div>
+        <div class="fleet__overlay__exit">
+          <img
+            src="img/svg/exit.svg"
+            alt="exit button"
+            class="fleet__exit__icon"
+            id="fleet__exit__icon"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="hero" id="home">
+      <div class="wrapper">
+        <h2 class="hero__heading" id="hero-comfort-text">
+          Wygoda i dostępność
+        </h2>
+        <p class="hero__cite" id="hero-cite-text">
+          Jesteśmy firmą wynajmującą samochody wraz z kierowcą. Czy moglibyśmy
+          Ci jakoś pomóc?
+        </p>
+        <button class="hero__button" id="hero__button">
+          Sprawdź nas!
+        </button>
+      </div>
+    </section>
+    <section class="offer" id="offer">
+      <div class="wrapper">
+        <h2 class="section__heading" id="offer-heading-text">Oferta</h2>
+        <div class="offer__card-container">
+          <div class="card card--offer">
+            <div class="card--offer__heading">
+              <p class="card--offer__heading-text" id="zakopane-heading-text">
+                Transfer do Zakopanego
+              </p>
+            </div>
+            <div class="card--offer__content">
+              <p class="card--offer__content-text" id="zakopane-content-text">
+                Dzięki nam i autostradzie "Zakopianka" mogą Państwo bez żadnych
+                przeszkód pojechać na ferie lub wakacje do Zakopanego, gdzie
+                można aktywnie odpocząć od miejskiego klimatu na łonie natury.
+              </p>
+            </div>
+          </div>
+          <div class="card card--offer">
+            <div class="card--offer__heading">
+              <p class="card--offer__heading-text" id="balice-heading-text">
+                Transfer do Balic
+              </p>
+            </div>
+            <div class="card--offer__content">
+              <p class="card--offer__content-text" id="balice-content-text">
+                W podkrakowskich Balicach znajduje się jedno z największych w
+                Polsce międzynarodowych lotnisk. Dzięki nam mogą Państwo szybko
+                i bezpiecznie dotrzeć na miejsce.
+              </p>
+            </div>
+          </div>
+          <div class="card card--offer">
+            <div class="card--offer__heading">
+              <p class="card--offer__heading-text" id="wieliczka-heading-text">
+                Transfer do Wieliczki
+              </p>
+            </div>
+            <div class="card--offer__content">
+              <p class="card--offer__content-text" id="wieliczka-content-text">
+                Każdego roku do położonej pod Krakowem Wieliczki przybywa około
+                milion turystów z całego świata chcących zobaczyć odkrywkową
+                kopalnię soli wpisaną na Listę Światowego Dziedzictwa
+                Kulturalnego i Przyrodniczego UNESCO.
+              </p>
+            </div>
+          </div>
+          <div class="card card--offer">
+            <div class="card--offer__heading">
+              <p class="card--offer__heading-text" id="oswiecim-heading-text">
+                Transfer do Oświęcimia
+              </p>
+            </div>
+            <div class="card--offer__content">
+              <p class="card--offer__content-text" id="oswiecim-content-text">
+                Około półtorej godziny od Krakowa w Oświęcimiu znajduje się
+                muzeum Auschwitz-Birkenau do którego ściągają tłumy turystów
+                każdego roku. Można w nim na własne oczy zobaczyć obozy
+                koncentracyjne z czasów II Wojny Światowej.
+              </p>
+            </div>
+          </div>
+          <div class="card card--offer">
+            <div class="card--offer__heading">
+              <p class="card--offer__heading-text" id="occasional-heading-text">
+                Imprezy okolicznościowe
+              </p>
+            </div>
+            <div class="card--offer__content">
+              <p class="card--offer__content-text" id="occasional-content-text">
+                Planują Państwo ślub, urodziny, chrzest, imieniny lub inną
+                imprezę okolicznościową? Pozwólcie sobie Państwo na transport z
+                kulturalnym i eleganckim kierowcą dzięki któremu nawet w trakcie
+                transportu poczują Państwo powagę imprezy.
+              </p>
+            </div>
+          </div>
+          <div class="card card--offer">
+            <div class="card--offer__heading">
+              <p class="card--offer__heading-text">
+                Inne
+              </p>
+            </div>
+            <div class="card--offer__content">
+              <p class="card--offer__content-text">
+                Jeżeli życzą sobie Państwo przewóz w inne miejsca, na przykład
+                do innych miast lub innych miejscowości, zapraszamy do kontaktu
+                z nami!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tariff" id="tariff">
+      <div class="wrapper">
+        <h2 class="section__heading section__heading--white">Cennik</h2>
+        <div class="tariff__table">
+          <div class="tariff__element" id="t1">1h lub 50km</div>
+          <div class="tariff__element" id="t2">24h lub 250km</div>
+          <div class="tariff__element" id="t3">Ekstra 1h lub 50km</div>
+          <div class="tariff__element" id="t4">Transfer do 50km</div>
+          <div class="tariff__element" id="prize">Cena</div>
+          <div class="tariff__element" id="p1">
+            150PLN (&#8364;35&#8356;30$40)
+          </div>
+          <div class="tariff__element" id="p2">
+            1300PLN (&#8364;320&#8356;290$420)
+          </div>
+          <div class="tariff__element" id="p3">
+            120PLN (&#8364;30&#8356;25$35)
+          </div>
+          <div class="tariff__element" id="p4">
+            250PLN (&#8364;60&#8356;55$70)
+          </div>
+        </div>
+        <p class="tariff__alert">
+          Uwaga - obowiązuje indywidualna cena na imprezy okolicznościowe
+        </p>
+      </div>
+    </section>
+    <section class="fleet" id="fleet">
+      <div class="wrapper">
+        <h2 class="section__heading">Flota</h2>
+        <div class="card card--fleet" id="mercedes">
+          <img src="img/png/mercedes.png" alt="" class="card--fleet__image" />
+          <p class="card--fleet__name">Mercedes E klasa</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery" id="gallery">
+      <div class="wrapper">
+        <h2 class="section__heading section__heading--white">Galeria</h2>
+        <div class="gallery__image-wrapper">
+          <img src="img/png/1.png" alt="" class="gallery__image" />
+          <img src="img/png/3.png" alt="" class="gallery__image" />
+          <img src="img/png/4.png" alt="" class="gallery__image" />
+          <img src="img/png/5.png" alt="" class="gallery__image" />
+          <img src="img/png/6.png" alt="" class="gallery__image" />
+        </div>
+      </div>
+    </section>
+    <section class="faq" id="faq">
+      <div class="wrapper">
+        <h2 class="section__heading">FAQ</h2>
+        <p class="faq__question">
+          Q: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          sint quos voluptatem dolorum unde officia? Cum asperiores hic fugiat
+          pariatur. Laudantium aperiam molestias dolorum pariatur magni itaque,
+          sit aliquam qui?
+        </p>
+        <p class="faq_answer">
+          A: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          nesciunt voluptatem consequuntur beatae nam quo sit architecto
+          pariatur tempora optio aperiam accusamus, quas voluptate illo impedit
+          placeat eum, maxime aspernatur?
+        </p>
+        <p class="faq__question">
+          Q: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          sint quos voluptatem dolorum unde officia? Cum asperiores hic fugiat
+          pariatur. Laudantium aperiam molestias dolorum pariatur magni itaque,
+          sit aliquam qui?
+        </p>
+        <p class="faq_answer">
+          A: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          nesciunt voluptatem consequuntur beatae nam quo sit architecto
+          pariatur tempora optio aperiam accusamus, quas voluptate illo impedit
+          placeat eum, maxime aspernatur?
+        </p>
+        <p class="faq__question">
+          Q: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          sint quos voluptatem dolorum unde officia? Cum asperiores hic fugiat
+          pariatur. Laudantium aperiam molestias dolorum pariatur magni itaque,
+          sit aliquam qui?
+        </p>
+        <p class="faq_answer">
+          A: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          nesciunt voluptatem consequuntur beatae nam quo sit architecto
+          pariatur tempora optio aperiam accusamus, quas voluptate illo impedit
+          placeat eum, maxime aspernatur?
+        </p>
+        <p class="faq__question">
+          Q: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          sint quos voluptatem dolorum unde officia? Cum asperiores hic fugiat
+          pariatur. Laudantium aperiam molestias dolorum pariatur magni itaque,
+          sit aliquam qui?
+        </p>
+        <p class="faq_answer">
+          A: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          nesciunt voluptatem consequuntur beatae nam quo sit architecto
+          pariatur tempora optio aperiam accusamus, quas voluptate illo impedit
+          placeat eum, maxime aspernatur?
+        </p>
+        <p class="faq__question">
+          Q: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          sint quos voluptatem dolorum unde officia? Cum asperiores hic fugiat
+          pariatur. Laudantium aperiam molestias dolorum pariatur magni itaque,
+          sit aliquam qui?
+        </p>
+        <p class="faq_answer">
+          A: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          nesciunt voluptatem consequuntur beatae nam quo sit architecto
+          pariatur tempora optio aperiam accusamus, quas voluptate illo impedit
+          placeat eum, maxime aspernatur?
+        </p>
+        <p class="faq__question">
+          Q: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          sint quos voluptatem dolorum unde officia? Cum asperiores hic fugiat
+          pariatur. Laudantium aperiam molestias dolorum pariatur magni itaque,
+          sit aliquam qui?
+        </p>
+        <p class="faq_answer">
+          A: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          nesciunt voluptatem consequuntur beatae nam quo sit architecto
+          pariatur tempora optio aperiam accusamus, quas voluptate illo impedit
+          placeat eum, maxime aspernatur?
+        </p>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20490.080754282157!2d19.924408940004597!3d50.06269048272784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b11bb2ba5ed%3A0x4e9197ac6101863a!2sStare+Miasto%2C+Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1563223787555!5m2!1spl!2spl"
+        class="contact__map"
+      ></iframe>
+      <div class="wrapper">
+        <div class="contact__pannel">
+          <div class="contact__element">
+            <img src="img/svg/phone.svg" alt="" class="contact__image" />
+            <p class="contact__reference">+44 000-000-000</p>
+          </div>
+          <div class="contact__element">
+            <img src="img/svg/mail.svg" alt="" class="contact__image" />
+            <p class="contact__reference">mail@mail.com</p>
+          </div>
+          <p class="contact__address">ul. Duża 2 00-000 Kokotów</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__element">
+          <p class="footer__heading">SKONTAKTUJ SIĘ</p>
+          <div class="footer__pack">
+            <p class="footer__reference">+44 000-000-000</p>
+            <p class="footer__reference">mail@mail.com</p>
+            <p class="footer__reference">ul. Długa 2 00-000 Kokotów</p>
+          </div>
+        </div>
+        <div class="footer__element">
+          <p class="footer__heading">NAWIGACJA</p>
+          <div class="footer__pack">
+            <a href="#home" class="footer__reference">O NAS</a>
+            <a href="#offer" class="footer__reference">OFERTA</a>
+            <a href="#gallery" class="footer__reference">GALERIA</a>
+            <a href="#fleet" class="footer__reference">FLOTA</a>
+            <a href="#faq" class="footer__reference">FAQ</a>
+            <a href="#contact" class="footer__reference">KONTAKT</a>
+          </div>
+        </div>
+        <a href="#" class="footer__copyright">&copy; Dmitro Szewczuk</a>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
