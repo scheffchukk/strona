@@ -213,12 +213,12 @@
           </div>
           <div class="card card--offer">
             <div class="card--offer__heading">
-              <p class="card--offer__heading-text">
+              <p class="card--offer__heading-text" id="other-heading-text">
                 Inne
               </p>
             </div>
             <div class="card--offer__content">
-              <p class="card--offer__content-text">
+              <p class="card--offer__content-text" id="other-content-text">
                 Jeżeli życzą sobie Państwo przewóz w inne miejsca, na przykład
                 do innych miast lub innych miejscowości, zapraszamy do kontaktu
                 z nami!
@@ -230,7 +230,12 @@
     </section>
     <section class="tariff" id="tariff">
       <div class="wrapper">
-        <h2 class="section__heading section__heading--white">Cennik</h2>
+        <h2
+          class="section__heading section__heading--white"
+          id="tariff-heading"
+        >
+          Cennik
+        </h2>
         <div class="tariff__table">
           <div class="tariff__element" id="t1">1h lub 50km</div>
           <div class="tariff__element" id="t2">24h lub 250km</div>
@@ -250,23 +255,28 @@
             250PLN (&#8364;60&#8356;55$70)
           </div>
         </div>
-        <p class="tariff__alert">
+        <p class="tariff__alert" id="tariff-alert">
           Uwaga - obowiązuje indywidualna cena na imprezy okolicznościowe
         </p>
       </div>
     </section>
     <section class="fleet" id="fleet">
       <div class="wrapper">
-        <h2 class="section__heading">Flota</h2>
+        <h2 class="section__heading" id="fleet-heading">Flota</h2>
         <div class="card card--fleet" id="mercedes">
           <img src="img/png/mercedes.png" alt="" class="card--fleet__image" />
-          <p class="card--fleet__name">Mercedes E klasa</p>
+          <p class="card--fleet__name" id="car-name">Mercedes E klasa</p>
         </div>
       </div>
     </section>
     <section class="gallery" id="gallery">
       <div class="wrapper">
-        <h2 class="section__heading section__heading--white">Galeria</h2>
+        <h2
+          class="section__heading section__heading--white"
+          id="gallery-heading"
+        >
+          Galeria
+        </h2>
         <div class="gallery__image-wrapper">
           <img src="img/png/1.png" alt="" class="gallery__image" />
           <img src="img/png/3.png" alt="" class="gallery__image" />
@@ -375,7 +385,9 @@
     <footer class="footer">
       <div class="wrapper">
         <div class="footer__element">
-          <p class="footer__heading">SKONTAKTUJ SIĘ</p>
+          <p class="footer__heading" id="contact-footer-heading">
+            SKONTAKTUJ SIĘ
+          </p>
           <div class="footer__pack">
             <p class="footer__reference">+44 000-000-000</p>
             <p class="footer__reference">mail@mail.com</p>
@@ -383,14 +395,34 @@
           </div>
         </div>
         <div class="footer__element">
-          <p class="footer__heading">NAWIGACJA</p>
+          <p class="footer__heading" id="navigation-footer-heading">
+            NAWIGACJA
+          </p>
           <div class="footer__pack">
-            <a href="#home" class="footer__reference">O NAS</a>
-            <a href="#offer" class="footer__reference">OFERTA</a>
-            <a href="#gallery" class="footer__reference">GALERIA</a>
-            <a href="#fleet" class="footer__reference">FLOTA</a>
-            <a href="#faq" class="footer__reference">FAQ</a>
-            <a href="#contact" class="footer__reference">KONTAKT</a>
+            <a href="#home" class="footer__reference" id="about-text-footer"
+              >O NAS</a
+            >
+            <a href="#offer" class="footer__reference" id="offer-text-footer"
+              >OFERTA</a
+            >
+            <a
+              href="#gallery"
+              class="footer__reference"
+              id="gallery-text-footer"
+              >GALERIA</a
+            >
+            <a href="#fleet" class="footer__reference" id="fleet-text-footer"
+              >FLOTA</a
+            >
+            <a href="#faq" class="footer__reference" id="faq-text-footer"
+              >FAQ</a
+            >
+            <a
+              href="#contact"
+              class="footer__reference"
+              id="contact-text-footer"
+              >KONTAKT</a
+            >
           </div>
         </div>
         <a href="#" class="footer__copyright">&copy; Dmitro Szewczuk</a>

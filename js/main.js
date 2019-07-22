@@ -198,7 +198,7 @@ const textes = [
   },
   {
     id: "#oswiecim-heading-text",
-    pol: "Transfer do Oświęcimia",  
+    pol: "Transfer do Oświęcimia",
     ang: "Transfer to Oświęcim"
   },
   {
@@ -215,8 +215,117 @@ const textes = [
   },
   {
     id: "#occasional-content-text",
-    pol: "Planują Państwo ślub, urodziny, chrzest, imieniny lub inną imprezę okolicznościową? Pozwólcie sobie Państwo na transport z kulturalnym i eleganckim kierowcą dzięki któremu nawet w trakcie transportu poczują Państwo powagę imprezy.",
-    ang: "Do you plan wedding, baptism, name day por other occasional event? "
+    pol:
+      "Planują Państwo ślub, urodziny, chrzest, imieniny lub inną imprezę okolicznościową? Pozwólcie sobie Państwo na transport z kulturalnym i eleganckim kierowcą dzięki któremu nawet w trakcie transportu poczują Państwo powagę imprezy.",
+    ang:
+      "Do you plan wedding, baptism, name day por other occasional event? Let yourself to transport with cultural and elegant driver"
+  },
+  {
+    id: "#other-heading-text",
+    pol: "Inne",
+    ang: "Other"
+  },
+  {
+    id: "#other-content-text",
+    pol:
+      "Jeżeli życzą sobie Państwo przewóz w inne miejsca, na przykład do innych miast lub innych miejscowości, zapraszamy do kontaktu z nami!",
+    ang:
+      "If you wish transit to other place, for example to other cities, feel free to contact with us!"
+  },
+  {
+    id: "#t1",
+    pol: "1h lub 50km",
+    ang: "1h or 50km"
+  },
+  {
+    id: "#t2",
+    pol: "24h lub 250km",
+    ang: "24h or 250km"
+  },
+  {
+    id: "#t3",
+    pol: "Ekstra 1h lub 50km",
+    ang: "Extra 1h or 50km"
+  },
+  {
+    id: "#t4",
+    pol: "Transfer do 50km",
+    ang: "Transfer to 50km"
+  },
+  {
+    id: "#prize",
+    pol: "Cena",
+    ang: "Prize"
+  },
+  {
+    id: "#car-name",
+    pol: "Mercedes E klasa",
+    ang: "Mercedes E class"
+  },
+  {
+    id: "#tariff-alert",
+    pol: "Uwaga - obowiązuje indywidualna cena na imprezy okolicznościowe",
+    ang: "Attention - Individual prizing of Occasional Events"
+  },
+  {
+    id: "#contact-footer-heading",
+    pol: "SKONTAKTUJ SIĘ",
+    ang: "CONTACT WITH US"
+  },
+  {
+    id: "#navigation-footer-heading",
+    pol: "NAWIGACJA",
+    ang: "NAVIGATION"
+  },
+  {
+    id: "#about-text-footer",
+    pol: "O NAS",
+    ang: "ABOUT US"
+  },
+  {
+    id: "#offer-text-footer",
+    pol: "OFERTA",
+    ang: "OFFER"
+  },
+  {
+    id: "#tariff-text-footer",
+    pol: "CENNIK",
+    ang: "TARIFF"
+  },
+  {
+    id: "#fleet-text-footer",
+    pol: "FLOTA",
+    ang: "FLEET"
+  },
+  {
+    id: "#gallery-text-footer",
+    pol: "GALERIA",
+    ang: "GALLERY"
+  },
+  {
+    id: "#faq-text-footer",
+    pol: "FAQ",
+    ang: "FAQ"
+  },
+  {
+    id: "#contact-text-footer",
+    pol: "KONTAKT",
+    ang: "CONTACT"
+  },
+  {
+    id: "#fleet-heading",
+    pol: "Flota",
+    ang: "Fleet"
+  },
+  {
+    id: "#gallery-heading",
+    pol: "Galeria",
+    ang: "Gallery"
+  },
+  {
+    id: "#tariff-heading",
+    pol: "Cennik",
+    ang: "Tariff"
   }
 ];
 
