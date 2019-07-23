@@ -344,3 +344,13 @@ $("#pol-trigger").click(function(e) {
     $(text.id).text(text.pol);
   }
 });
+
+document.addEventListener(
+  "click",
+  function(event) {
+    if (!event.target.closest("#fleet__overlay")) return;
+
+    $("#fleet__overlay").css("display", "none");
+  },
+  false
+);
