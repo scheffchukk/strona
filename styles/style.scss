@@ -371,22 +371,23 @@ body {
       flex-direction: column;
       align-items: center;
       padding: 10px;
-      .fleet__overlay__image {
-        max-width: 100%;
+    }
+
+    .fleet__overlay__image {
+      max-width: 500px;
+
+      @media screen and (max-width: 1200px) {
+        max-width: 300px;
       }
     }
 
     .fleet__overlay__heading,
     .fleet__overlay__list {
       font-size: 24px;
+      margin: 0 0 0 15px;
       @media screen and (max-width: 1200px) {
         font-size: 16px;
       }
-    }
-
-    .fleet__overlay__heading,
-    .fleet__overlay__list {
-      margin: 0;
     }
 
     .fleet__overlay__alert {
@@ -400,9 +401,11 @@ body {
 
     .fleet__overlay__list {
       list-style: none;
-      margin-left: 30px;
 
       line-height: 32px;
+
+      padding: 0;
+      margin-left: 30px;
     }
 
     .fleet__overlay__exit {
@@ -451,20 +454,6 @@ body {
     .gallery__image:nth-of-type(6) {
       margin-right: 0;
     }
-  }
-}
-
-.faq {
-  padding: 30px;
-
-  color: $primaryColor;
-
-  .faq__question {
-    cursor: pointer;
-  }
-
-  .faq_answer {
-    display: none;
   }
 }
 

@@ -263,9 +263,14 @@ const textes = [
     ang: "Mercedes E class"
   },
   {
-    id: "#tariff-alert",
-    pol: "Uwaga - obowiązuje indywidualna cena na imprezy okolicznościowe",
-    ang: "Attention - Individual prizing of Occasional Events"
+    id: "#tariff-alert-1",
+    pol: "Uwaga 1 - obowiązuje indywidualna cena na imprezy okolicznościowe",
+    ang: "Note 1 - Individual prizing of Occasional Events"
+  },
+  {
+    id: "#tariff-alert-2",
+    pol: "Uwaga 2 - Wynajem auta RAZEM z kierowcą",
+    ang: "Note 2 - Car lending WITH driver"
   },
   {
     id: "#contact-footer-heading",
